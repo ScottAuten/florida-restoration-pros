@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-navy-900 bg-white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold text-navy-800;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-3.5 tracking-wide transition-colors;
+  }
+
+  .btn-outline {
+    @apply inline-block border-2 border-navy-800 text-navy-800 hover:bg-navy-800 hover:text-white font-semibold px-8 py-3 tracking-wide transition-colors;
+  }
+
+  .btn-ghost {
+    @apply inline-block border-2 border-white text-white hover:bg-white hover:text-navy-800 font-semibold px-8 py-3 tracking-wide transition-colors;
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-navy-800 leading-tight;
+  }
+
+  .card-light {
+    @apply bg-white border border-light-200 p-6 shadow-sm;
+  }
+
+  .card-dark {
+    @apply bg-navy-800 p-6;
+  }
+
+  .orange-rule {
+    @apply w-16 h-1 bg-orange-500 mx-auto my-5;
+  }
+
+  .orange-rule-left {
+    @apply w-16 h-1 bg-orange-500 my-5;
+  }
+
+  .trust-badge {
+    @apply flex items-center gap-2 text-sm font-semibold text-navy-800;
+  }
+
+  .aeo-block {
+    @apply bg-light-100 border-l-4 border-orange-500 p-6;
+  }
+}
