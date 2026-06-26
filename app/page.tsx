@@ -80,16 +80,15 @@ export default function HomePage() {
       <section
         className="relative bg-navy-950 overflow-hidden"
         style={{
-          minHeight: '75vh',
           backgroundImage: 'url(/images/hero-bg.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       >
-        {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/80 to-navy-900/65" />
+        {/* Semi-transparent overlay — keeps image visible */}
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-900/70 via-navy-900/50 to-navy-900/30" />
 
-        <div className="relative max-w-7xl mx-auto px-6 py-10 lg:py-14 flex flex-col lg:flex-row items-center gap-12">
+        <div className="relative max-w-7xl mx-auto px-6 py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-12">
           {/* Hero text */}
           <div className="flex-1 max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 px-4 py-1.5 mb-6">
