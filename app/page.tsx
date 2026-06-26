@@ -90,7 +90,7 @@ export default function HomePage() {
 
         <div className="relative max-w-7xl mx-auto px-6 py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-12">
           {/* Hero text */}
-          <div className="flex-1 max-w-2xl">
+          <div className="flex-1 max-w-2xl" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}>
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 px-4 py-1.5 mb-6">
               <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">
                 ● Available Now — 24/7 Emergency Response
@@ -102,7 +102,7 @@ export default function HomePage() {
               <span className="text-orange-400">Fast, Certified, Local</span>
             </h1>
 
-            <p className="text-steel-200 text-lg leading-relaxed mb-8">
+            <p className="text-white font-semibold text-lg leading-relaxed mb-8">
               IICRC-certified restoration crews serving Tampa, Orlando, Jacksonville, Fort Lauderdale, and Miami.
               We respond in 60 minutes, dry to ANSI/IICRC S500 standard, and handle your insurance claim from first call to final sign-off.
             </p>
@@ -117,7 +117,7 @@ export default function HomePage() {
               ].map((t) => (
                 <div key={t.label} className="flex items-center gap-2 bg-navy-800/60 border border-navy-700 px-3 py-2">
                   <span className="text-lg">{t.icon}</span>
-                  <span className="text-steel-200 text-xs font-semibold">{t.label}</span>
+                  <span className="text-white text-xs font-semibold">{t.label}</span>
                 </div>
               ))}
             </div>
@@ -136,7 +136,10 @@ export default function HomePage() {
           </div>
 
           {/* Hero card */}
-          <div className="flex-shrink-0 w-full lg:w-80 bg-orange-500/10 border border-orange-500/30 p-6">
+          <div
+            className="flex-shrink-0 w-full lg:w-80 border border-orange-500/50 p-6"
+            style={{ backgroundColor: 'rgba(27, 58, 92, 0.92)', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
+          >
             <p className="text-orange-400 font-bold text-sm uppercase tracking-wider mb-4">
               Why Call Us First?
             </p>
@@ -151,7 +154,7 @@ export default function HomePage() {
                 'Direct adjuster communication',
                 'ANSI/IICRC S500-2021 compliant process',
               ].map((item) => (
-                <li key={item} className="flex items-start gap-2 text-sm text-steel-200">
+                <li key={item} className="flex items-start gap-2 text-sm text-white font-semibold">
                   <span className="text-orange-400 mt-0.5 flex-shrink-0">→</span>
                   {item}
                 </li>
