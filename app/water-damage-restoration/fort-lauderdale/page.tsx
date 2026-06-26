@@ -6,9 +6,9 @@ import { CITIES, SITE } from '@/lib/siteConfig';
 const city = CITIES.find((c) => c.slug === 'fort-lauderdale')!;
 
 export const metadata: Metadata = {
-  title: 'Water Damage Restoration Fort Lauderdale FL | King Tide & Flood Experts | The Florida Restoration Pros',
+  title: 'Water Damage Restoration Fort Lauderdale FL | April 2023 Flood & King Tide Specialists | The Florida Restoration Pros',
   description:
-    'IICRC-certified water damage restoration in Fort Lauderdale, FL. April 2023 flood veterans, king tide specialists, canal seepage experts. 24/7 emergency. (954) 636-6057.',
+    'Fort Lauderdale water damage restoration — April 12 2023 flood veterans (25.91" in 12 hours), king tide saltwater specialists, Las Olas Isles canal experts. (954) 636-6057.',
   alternates: { canonical: `${SITE.siteUrl}/water-damage-restoration/fort-lauderdale/` },
 };
 
@@ -40,28 +40,23 @@ const FAQ_SCHEMA = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'Was the April 2023 Fort Lauderdale flood the worst in history?',
-      acceptedAnswer: { '@type': 'Answer', text: 'The April 12, 2023 rainfall event recorded approximately 25.91 inches of rain in roughly 12 hours over Fort Lauderdale — a statistical 1-in-1,000-year precipitation event that triggered a state of emergency declaration. Fort Lauderdale-Hollywood International Airport recorded 21+ inches in one day. The event flooded thousands of homes and businesses, closed major roads for days, and exposed the limitations of the city\'s stormwater infrastructure in canal-dense neighborhoods like Victoria Park, Rio Vista, and the Las Olas Isles.' },
+      name: 'What caused the April 12, 2023 Fort Lauderdale flood?',
+      acceptedAnswer: { '@type': 'Answer', text: 'On April 12, 2023, a slow-moving upper-level low pressure system stalled over South Florida and dumped approximately 25.91 inches of rain on Fort Lauderdale in roughly 12 hours. This is estimated to be a 1-in-1,000-year rainfall event. Fort Lauderdale-Hollywood International Airport was closed. Portions of I-595 flooded. Neighborhoods throughout the city were inundated, including Victoria Park, Rio Vista, and areas around the New River and the Intracoastal Waterway finger isles. Broward County and the state of Florida declared states of emergency. The water that entered homes during this event was stormwater flooding — Category 3 under IICRC S500 — meaning all affected porous materials required removal, not drying in place.' },
     },
     {
       '@type': 'Question',
-      name: 'What is king tide flooding and how does it affect Fort Lauderdale homes?',
-      acceptedAnswer: { '@type': 'Answer', text: 'King tides are predictable high tides that occur when the sun, moon, and Earth align, pushing tidal water 1–3 feet above normal high tide. In Fort Lauderdale, king tides — which typically peak in September and October — push saltwater backward through drainage systems and canal networks, causing "sunny-day flooding" in the lowest-lying neighborhoods even with no rain. In September 2025, Fort Lauderdale recorded 41 tidal events above flood threshold. Saltwater intrusion through drains and seawalls carries different damage characteristics than fresh water: salt accelerates corrosion of metals, stains masonry, and creates conditions where mold establishes faster.' },
+      name: 'What are king tides and how do they damage Fort Lauderdale homes?',
+      acceptedAnswer: { '@type': 'Answer', text: 'King tides are the highest natural tidal events of the year — predictable, astronomy-driven peaks in the tidal cycle that occur each fall, typically in September and October. In September 2025, Fort Lauderdale recorded 41 tidal events that exceeded the nuisance flooding threshold. King tides push saltwater up through the stormwater drainage system, flooding streets in Victoria Park, Las Olas Isles, and the Southeast Isles without any rainfall — the drain grates become fountains. This saltwater enters ground-floor garages, elevator pits in the finger-isle homes, and ground-level HVAC units. Repeated exposure to saltwater accelerates corrosion of metal components, leaves hygroscopic salt crystals in concrete that continue drawing moisture even after the tide recedes, and creates the substrate for rapid mold growth in Florida\'s humidity.' },
     },
     {
       '@type': 'Question',
-      name: 'How quickly do you respond to water damage emergencies in Fort Lauderdale?',
-      acceptedAnswer: { '@type': 'Answer', text: 'The Florida Restoration Pros targets a 60-minute response window across Fort Lauderdale and Broward County including Victoria Park, Rio Vista, Las Olas Isles, Southeast Isles, Seven Isles, Lauderdale-by-the-Sea, Wilton Manors, and surrounding communities. Our dispatchers answer every call 24 hours a day, 7 days a week.' },
+      name: 'How is saltwater damage different from freshwater water damage?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Saltwater damage has three characteristics that make it more severe and expensive than freshwater damage of the same volume. First, salt is hygroscopic — it continues drawing ambient moisture from the air long after the water has been extracted, creating ongoing dampness in concrete and masonry even after conventional drying. Second, saltwater corrodes metals much faster than freshwater: steel rebar in concrete structures, copper plumbing, aluminum HVAC components, and electrical terminals all degrade rapidly. Third, saltwater is a Category 3 contaminated water source under IICRC S500, meaning all porous materials (drywall, insulation, carpet, upholstery) in contact with it must be removed rather than dried in place. The salt crystal removal process requires extended desiccant drying cycles and sometimes professional washing of structural concrete to remove residual salt before rebuilding.' },
     },
     {
       '@type': 'Question',
-      name: 'Does saltwater flood damage require different restoration than freshwater?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Yes. Salt-laden stormwater from king tide events or canal seepage is classified as Category 3 (black water) under the IICRC S500 standard regardless of visual appearance. Saltwater accelerates corrosion of metal studs, fasteners, and HVAC components; leaves hygroscopic salt crystals that continue drawing moisture even after visible drying; and creates elevated mold risk because salt-damaged materials hold residual moisture at a microscopic level. Our technicians treat all coastal saltwater intrusion as Cat 3 and apply the appropriate protocol.' },
-    },
-    {
-      '@type': 'Question',
-      name: 'What is the Fortify Lauderdale program and will it prevent future flooding?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Fortify Lauderdale is the city\'s approximately $1.6 billion stormwater and resilience infrastructure program designed to address chronic flooding in low-lying areas through improved drainage, stormwater pump stations, seawall improvements, and approximately 200 tidal backflow valves. While the program will reduce flooding frequency and severity over time, properties in the lowest flood-risk zones will continue to experience water intrusion during major rainfall events and extreme king tides until full infrastructure completion.' },
+      name: 'What is the Fortify Lauderdale program and what does it mean for homeowners?',
+      acceptedAnswer: { '@type': 'Answer', text: 'Fortify Lauderdale is Fort Lauderdale\'s approximately $1.6 billion long-term capital infrastructure investment program to address sea-level rise and tidal flooding, including seawall upgrades, stormwater system improvements, and tidal valves. The city has already installed approximately 200 tidal valves in its stormwater system to prevent king-tide saltwater from backing up through drains. Fortify Lauderdale represents the city\'s recognition that king tides and sea-level rise are permanent, intensifying conditions rather than temporary problems. For homeowners, the practical implication is twofold: infrastructure improvements reduce (but do not eliminate) flooding risk over time, and properties in tidal flood zones will face continued insurance cost pressure regardless of infrastructure investment.' },
     },
   ],
 };
@@ -83,12 +78,12 @@ export default function FortLauderdalePage() {
       <section className="bg-navy-800 py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 px-4 py-1.5 mb-5">
-            <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">● 24/7 Emergency Response — Fort Lauderdale FL</span>
+            <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">● 24/7 Emergency — April 2023 Veterans · King Tide Saltwater Specialists</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">Fort Lauderdale Water Damage Restoration</h1>
           <div className="w-16 h-1 bg-orange-500 mb-6" />
           <p className="text-steel-200 text-lg max-w-2xl mb-8">
-            IICRC-certified restoration across Broward County — 60-minute response to Victoria Park, Rio Vista, Las Olas Isles, Southeast Isles, and all Fort Lauderdale neighborhoods. April 2023 flood veterans and king tide specialists.
+            IICRC-certified crews serving Fort Lauderdale&rsquo;s canal neighborhoods, finger isles, and inland communities — saltwater protocol for king tide events, full Cat 3 response for the April 2023-type events, and everyday plumbing failures across Victoria Park, Rio Vista, Las Olas Isles, and all of Broward County.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a href={`tel:${city.phone}`} className="btn-primary text-base uppercase tracking-wider text-center">☎ Call {city.phone}</a>
@@ -101,65 +96,109 @@ export default function FortLauderdalePage() {
         <div className="aeo-block">
           <p className="text-xs font-bold text-orange-600 uppercase tracking-widest mb-2">Quick Answer</p>
           <p className="text-navy-900 text-lg font-semibold leading-relaxed">
-            The Florida Restoration Pros provides 24/7 emergency water damage restoration in Fort Lauderdale, FL, targeting 60-minute on-site arrival. We specialize in April 2023-type extreme rainfall events, king tide saltwater intrusion, canal seepage, and the full range of South Florida flood damage scenarios. Call <a href={`tel:${city.phone}`} className="text-orange-600 hover:underline">{city.phone}</a> now.
+            The Florida Restoration Pros provides 24/7 emergency water damage restoration in Fort Lauderdale, FL — with specialized saltwater protocol for king tide flooding in Victoria Park, Las Olas Isles, and the Southeast Isles, and full Category 3 response for stormwater events like the April 12, 2023 flood that dropped 25.91 inches in 12 hours and triggered a state of emergency. Call <a href={`tel:${city.phone}`} className="text-orange-600 hover:underline">{city.phone}</a> now.
           </p>
         </div>
       </section>
 
+      {/* April 2023 section */}
       <section className="bg-light-50 py-12">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="section-heading mb-4">Fort Lauderdale&rsquo;s Unique Flood Risk Profile</h2>
+          <h2 className="section-heading mb-4">April 12, 2023: The 1-in-1,000-Year Event That Changed Fort Lauderdale</h2>
           <div className="orange-rule-left" />
           <div className="grid md:grid-cols-2 gap-10 mt-6">
             <div>
               <p className="text-navy-700 leading-relaxed mb-4">
-                Fort Lauderdale sits on one of the most flood-exposed coastal geographies in the United States: a low-elevation, canal-dense landscape where saltwater from the Atlantic Ocean, the Intracoastal Waterway, and dozens of residential canals can enter properties from multiple directions simultaneously. No other major Florida city combines extreme rainfall events, routine king tide flooding, and saltwater canal intrusion in the same geography.
+                On April 12, 2023, a stalled upper-level low brought approximately 25.91 inches of rain to Fort Lauderdale in roughly 12 hours. To put that in context: Fort Lauderdale averages 61.9 inches of rain per year. The city received nearly half its annual rainfall in a single day. The event is estimated to have been a 1-in-1,000-year occurrence by probability. Fort Lauderdale-Hollywood International Airport closed. I-595 flooded. Cars were submerged on streets throughout the city.
               </p>
               <p className="text-navy-700 leading-relaxed mb-4">
-                The April 12, 2023 event redefined &ldquo;worst case&rdquo; for Fort Lauderdale. Approximately 25.91 inches of rainfall in roughly 12 hours — a statistical 1-in-1,000-year precipitation event — flooded thousands of properties, overwhelmed the stormwater system, and triggered a state of emergency declaration. Properties in Victoria Park, Rio Vista, and the Las Olas finger isles flooded from below (stormwater drains backing up) and from above (direct rainfall) simultaneously.
+                The neighborhoods most severely affected were low-lying areas near the New River, the Intracoastal Waterway, and the city&rsquo;s 300+ miles of canals: Victoria Park, Rio Vista, the finger isles along the Intracoastal (Seven Isles, Las Olas Isles, Southeast Isles, Lauderdale-by-the-Sea waterfront), and inland residential streets where stormwater drainage was overwhelmed. The water that entered homes in this event was stormwater — Category 3 contaminated water under IICRC S500 — because urban stormwater carries sewage backup, automotive fluids, lawn chemicals, and other contaminants. All porous materials (drywall, insulation, flooring, carpet) in contact with that water must be removed, not dried.
               </p>
               <p className="text-navy-700 leading-relaxed">
-                Beyond extreme events, Fort Lauderdale faces a chronic flooding pattern driven by king tides: predictable high tides driven by lunar and solar alignment that push sea level 1–3 feet above normal. In September 2025, the city recorded 41 tidal events above its flood threshold. King tides push saltwater backward through drainage systems, causing &ldquo;sunny-day flooding&rdquo; with no rain, and the salt content of this water creates damage mechanisms — metal corrosion, persistent hygroscopic moisture, accelerated mold — that differ from standard freshwater events.
+                The April 2023 event accelerated Fort Lauderdale&rsquo;s Fortify Lauderdale infrastructure program — the approximately $1.6 billion investment in seawall upgrades, stormwater improvements, and the approximately 200 tidal valves already installed in the drainage system. But infrastructure improvements operate on multi-year timelines. Fort Lauderdale properties remain at elevated flooding risk today.
               </p>
             </div>
-            <div>
-              <h3 className="text-xl font-bold text-navy-800 mb-3">Fort Lauderdale&rsquo;s Water Damage Risk Factors</h3>
-              <ul className="space-y-3">
-                {[
-                  { heading: 'April 2023 Event Legacy', detail: 'The 25.91" 1-in-1,000-year rainfall exposed every property in low-lying areas to extreme stormwater flooding. Incomplete remediation from this event creates ongoing mold and structural risk.' },
-                  { heading: 'King Tide Flooding', detail: '41 tidal flood threshold events in Sep 2025 alone. Sunny-day saltwater intrusion via drains in Victoria Park, Las Olas Isles, and Southeast Isles is now routine.' },
-                  { heading: 'Saltwater Corrosion', detail: 'Canal and king tide water is salt-laden. Salt accelerates metal corrosion, penetrates masonry, and holds residual moisture even after visible drying — requiring Cat 3 protocol.' },
-                  { heading: 'Canal & Seawall Seepage', detail: 'Finger-isle and waterfront properties face groundwater seepage through seawalls and slab foundations during high tide events.' },
-                  { heading: 'Mold Acceleration', detail: 'Salt-damaged materials combined with South Florida humidity create mold colonization conditions within 24 hours — faster than freshwater events.' },
-                ].map((r) => (
-                  <li key={r.heading} className="flex gap-3">
-                    <span className="text-orange-500 font-bold mt-0.5">→</span>
-                    <span className="text-navy-700"><strong className="text-navy-800">{r.heading}:</strong> {r.detail}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="space-y-4">
+              <div className="bg-navy-800 p-6">
+                <h3 className="text-white font-bold text-lg mb-4">Fort Lauderdale&rsquo;s Two Flood Regimes</h3>
+                <div className="space-y-4">
+                  {[
+                    {
+                      title: 'Extreme Rainfall Events',
+                      example: 'April 12, 2023 — 25.91" in ~12 hours',
+                      detail: 'Category 3 stormwater. Overwhelms drainage citywide. All porous materials must be removed. Affects all neighborhoods regardless of elevation.',
+                    },
+                    {
+                      title: 'King Tide / Tidal Saltwater',
+                      example: 'Sep 2025 — 41 events above nuisance threshold',
+                      detail: 'Predictable fall tidal events push saltwater up through stormwater drains. Primarily affects finger isles, Victoria Park, and low-lying canal properties. Saltwater protocol required.',
+                    },
+                  ].map((r) => (
+                    <div key={r.title} className="border-l-4 border-orange-500 pl-4">
+                      <p className="text-orange-400 font-bold text-sm">{r.title}</p>
+                      <p className="text-steel-300 text-xs italic mb-1">{r.example}</p>
+                      <p className="text-steel-400 text-xs">{r.detail}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              <div className="card-light">
+                <h3 className="font-bold text-navy-800 mb-2">Saltwater Damage Protocol</h3>
+                <p className="text-navy-600 text-sm mb-3">King tide saltwater requires steps beyond standard freshwater restoration:</p>
+                <ul className="space-y-1 text-sm text-navy-700">
+                  {['Category 3 contamination protocol','Salt crystal removal from concrete surfaces','Extended desiccant drying (salt is hygroscopic)','Metal component corrosion assessment','HVAC unit flushing and inspection','Long-term moisture monitoring after drying'].map((d) => (
+                    <li key={d} className="flex gap-2"><span className="text-orange-500 font-bold flex-shrink-0">✓</span>{d}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Neighborhood breakdown */}
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="section-heading text-center mb-2">Water Damage Services in Fort Lauderdale</h2>
-          <div className="orange-rule" />
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+          <h2 className="section-heading mb-4">Fort Lauderdale Neighborhoods — Water Damage by Area</h2>
+          <div className="orange-rule-left" />
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {[
-              { title: 'Emergency Water Extraction', href: '/services/emergency-water-removal/', detail: '60-minute response. Cat 3 saltwater intrusion handled with full containment. Truck-mounted extractors remove standing water before salt penetrates building materials.' },
-              { title: 'King Tide Saltwater Remediation', href: '/contact/', detail: 'Specialized protocol for salt-laden canal and tidal intrusion. Includes antimicrobial treatment, salt crystal removal, and corrosion assessment of metal structural components.' },
-              { title: 'Flood Damage Restoration', href: '/services/flood-damage-restoration/', detail: 'Full-scope recovery from the April 2023 type extreme rainfall events. Complete documentation for state emergency declarations and private flood insurance claims.' },
-              { title: 'Structural Drying', href: '/services/structural-drying/', detail: 'Desiccant dehumidifiers remove hygroscopic salt moisture that standard LGR units miss. Thermal imaging confirms complete drying in waterfront slab-on-grade homes.' },
-              { title: 'Mold Remediation', href: '/services/mold-remediation/', detail: 'AMRT-certified mold response. April 2023 legacy properties and king tide-affected homes face accelerated mold risk from salt-damaged materials and residual moisture.' },
-              { title: 'Canal & Seawall Seepage', href: '/contact/', detail: 'Assessment and documentation for groundwater seepage through seawall foundations and slab edges during high tide events — common in Victoria Park and the finger isles.' },
-            ].map((s) => (
-              <Link key={s.title} href={s.href} className="card-light hover:border-orange-300 transition-colors block">
-                <h3 className="text-lg font-bold text-navy-800 mb-2">{s.title}</h3>
-                <p className="text-navy-600 text-sm leading-relaxed">{s.detail}</p>
-              </Link>
+              {
+                nbhd: 'Victoria Park',
+                risk: 'Tidal saltwater + April 2023 stormwater',
+                detail: 'Sits adjacent to the Intracoastal and receives saltwater during king tide drain events. Also heavily affected by April 2023. Mix of 1960s-1970s ranch homes and newer construction — all at low elevation west of the Intracoastal.',
+              },
+              {
+                nbhd: 'Las Olas Isles / Seven Isles / Southeast Isles',
+                risk: 'Canal-front: tidal + saltwater corrosion',
+                detail: 'Fort Lauderdale\'s most celebrated finger isles are surrounded by tidal canals. Saltwater enters garage floors, elevator pits, and landscaping drainage during king tides. Marine-environment corrosion of plumbing and HVAC is accelerated by constant salt air. These are high-value properties with complex insurance and HOA claim dynamics.',
+              },
+              {
+                nbhd: 'Rio Vista',
+                risk: 'New River flooding + stormwater',
+                detail: 'Historic Rio Vista borders the New River on the west. River flooding affects the western edge during major rain events. The neighborhood\'s 1920s-1940s Mediterranean Revival and Mission homes contain original construction that requires careful moisture documentation for historic fabric preservation.',
+              },
+              {
+                nbhd: 'Lauderdale-by-the-Sea',
+                risk: 'Beach-front + tidal + salt air',
+                detail: 'Ocean-side properties face Atlantic surge from tropical systems. Seawater is the most corrosive form of water intrusion and requires the same extended desiccant drying and salt removal protocol as king tide events. High-value oceanfront properties require specialty contents and structural documentation.',
+              },
+              {
+                nbhd: 'Wilton Manors / Oakland Park',
+                risk: 'Stormwater flooding + older plumbing',
+                detail: 'Inland from the Intracoastal, these communities received heavy flooding during April 2023. 1950s-1970s housing stock with aging galvanized and CPVC supply lines. Lower elevation areas along Middle River are in Zone AE flood areas.',
+              },
+              {
+                nbhd: 'Coral Ridge / Imperial Point',
+                risk: 'Canal + tidal',
+                detail: 'Coral Ridge waterfront properties on the Intracoastal face the same tidal saltwater flooding as Las Olas Isles. Inland Coral Ridge and Imperial Point homes are at risk from the area\'s high water table and stormwater drainage system flooding during extreme events like April 2023.',
+              },
+            ].map((n) => (
+              <div key={n.nbhd} className="card-light">
+                <h3 className="font-bold text-navy-800 text-base mb-1">{n.nbhd}</h3>
+                <p className="text-xs font-bold text-orange-500 uppercase tracking-wider mb-2">Primary risk: {n.risk}</p>
+                <p className="text-navy-600 text-sm leading-relaxed">{n.detail}</p>
+              </div>
             ))}
           </div>
         </div>
@@ -171,10 +210,10 @@ export default function FortLauderdalePage() {
           <div className="orange-rule" />
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
             {[
-              { step: '01', title: 'Emergency Dispatch', detail: '60-minute response. Saltwater events receive immediate Cat 3 containment protocol — PPE, negative air pressure, full isolation before extraction begins.' },
-              { step: '02', title: 'Water Source & Category', detail: 'Canal/tidal water assessed for salt content and contamination. Delmhorst moisture readings establish baseline. FLIR thermal identifies hidden pathways.' },
-              { step: '03', title: 'Desiccant Drying', detail: 'Hygroscopic salts require desiccant dehumidifiers rather than standard LGR units. Extended drying cycles for salt-contaminated concrete slab and masonry.' },
-              { step: '04', title: 'Documentation & Rebuild', detail: 'Xactimate scope. NFIP and private flood documentation. State emergency claim support. Corrosion assessment for metal HVAC and structural components.' },
+              { step: '01', title: '60-Min to All Ft. Lauderdale Areas', detail: 'Victoria Park, Rio Vista, Las Olas Isles, Seven Isles, Southeast Isles, Wilton Manors, Oakland Park, Coral Ridge — 60-minute dispatch target 24/7.' },
+              { step: '02', title: 'Source & Salt Assessment', detail: 'Saltwater vs. freshwater source confirmed. King tide events: salt mapping of all affected concrete and masonry. Stormwater events: Cat 3 containment established.' },
+              { step: '03', title: 'Desiccant Drying + Salt Removal', detail: 'Extended desiccant cycles for saltwater events. Salt crystal removal from concrete before rebuilding. Corrosion assessment on metals and HVAC. Daily moisture readings until complete.' },
+              { step: '04', title: 'NFIP + Flood Documentation', detail: 'Many Ft. Lauderdale finger-isle properties are in Zone AE requiring NFIP flood documentation. Saltwater source vs. freshwater pipe failure clearly established. Xactimate scope. Fortify Lauderdale program context noted where relevant.' },
             ].map((p) => (
               <div key={p.step} className="bg-navy-700 p-6">
                 <div className="text-3xl font-bold text-orange-400 mb-3">{p.step}</div>
@@ -182,53 +221,6 @@ export default function FortLauderdalePage() {
                 <p className="text-steel-300 text-sm leading-relaxed">{p.detail}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="section-heading mb-4">Fort Lauderdale Neighborhoods We Serve</h2>
-          <div className="orange-rule-left" />
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-6">
-            {['Victoria Park','Rio Vista','Las Olas Isles','Southeast Isles','Seven Isles','Lauderdale-by-the-Sea','Wilton Manors','Oakland Park','Coral Ridge','Middle River Terrace','Tarpon River','Colee Hammock','Flagler Village','Downtown Fort Lauderdale','Pompano Beach','Deerfield Beach'].map((n) => (
-              <div key={n} className="bg-light-100 border border-light-200 px-4 py-2 text-sm font-semibold text-navy-700">{n}</div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-light-50 py-12">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-10 items-start">
-            <div>
-              <h2 className="section-heading mb-4">Fort Lauderdale Flood Insurance Claims</h2>
-              <div className="orange-rule-left" />
-              <p className="text-navy-700 leading-relaxed mb-4">
-                Fort Lauderdale&rsquo;s flood insurance landscape is among the most complex in the state. Canal-front and finger-isle properties typically carry both a standard homeowner policy (for sudden/accidental water damage) and a separate NFIP or private flood policy (for rising water). The April 2023 event and recurring king tide events create situations where multiple policies are triggered simultaneously, and proper documentation of the water source is critical to maximizing recovery.
-              </p>
-              <p className="text-navy-700 leading-relaxed mb-4">
-                Saltwater intrusion events require special attention in the claim: salt damage to metals, masonry, and flooring systems is often not fully visible until weeks after the event, and initial claim scopes frequently undervalue the damage. Our technicians write comprehensive Xactimate scopes that account for corrosion progression, extended drying requirements, and the higher labor cost of Cat 3 protocol.
-              </p>
-              <p className="text-navy-700 leading-relaxed">
-                The Fortify Lauderdale infrastructure program ($1.6B) and the city&rsquo;s ongoing tidal valve installation (~200 valves) indicate the municipality&rsquo;s recognition that flooding is a chronic condition, not an exceptional event. Properties in the lowest flood zones should maintain current NFIP policies and document all water events — even minor ones — as part of a claim history.
-              </p>
-            </div>
-            <div className="space-y-4">
-              <div className="card-light">
-                <h3 className="font-bold text-navy-800 mb-2">Fort Lauderdale Claim Documentation</h3>
-                <ul className="space-y-2 text-sm text-navy-700">
-                  {['Saltwater vs freshwater source documentation','NFIP and private flood policy claim filing','April 2023 legacy damage assessment','King tide pattern documentation for chronic claims','Salt corrosion assessment on metals and HVAC','Xactimate scope with Cat 3 labor rates','State emergency declaration claim support'].map((d) => (
-                    <li key={d} className="flex gap-2"><span className="text-orange-500 font-bold flex-shrink-0">✓</span>{d}</li>
-                  ))}
-                </ul>
-              </div>
-              <div className="bg-orange-500 p-5">
-                <p className="text-white font-bold mb-1">Fort Lauderdale flooding?</p>
-                <p className="text-orange-100 text-sm mb-3">Salt water requires Cat 3 protocol. Call immediately.</p>
-                <a href={`tel:${city.phone}`} className="block bg-white text-orange-500 font-bold text-center py-2.5 text-sm tracking-wide hover:bg-orange-50 transition-colors">{city.phone}</a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -253,11 +245,10 @@ export default function FortLauderdalePage() {
 
       <section className="bg-light-50 py-10">
         <div className="max-w-7xl mx-auto px-6">
-          <h3 className="font-bold text-navy-800 mb-4">Water Damage Resources</h3>
           <div className="flex flex-wrap gap-6 text-sm">
-            <a href="https://www.iicrc.org" target="_blank" rel="noopener" className="text-steel-600 hover:text-orange-500 underline">IICRC — Institute of Inspection, Cleaning and Restoration Certification</a>
+            <a href="https://www.iicrc.org" target="_blank" rel="noopener" className="text-steel-600 hover:text-orange-500 underline">IICRC — ANSI/IICRC S500 Standard</a>
             <a href="https://www.epa.gov/mold/mold-cleanup-your-home" target="_blank" rel="noopener" className="text-steel-600 hover:text-orange-500 underline">EPA Mold Cleanup Guidelines</a>
-            <a href="https://www.fema.gov/flood-insurance" target="_blank" rel="noopener" className="text-steel-600 hover:text-orange-500 underline">FEMA National Flood Insurance Program</a>
+            <a href="https://www.fema.gov/flood-insurance" target="_blank" rel="noopener" className="text-steel-600 hover:text-orange-500 underline">FEMA Flood Insurance</a>
           </div>
           <p className="text-xs text-steel-400 mt-6">This page was researched and produced in support of Brain b32bfc21 — The Florida Restoration Pros content development initiative. NAP: {city.streetAddress}, {city.addressLocality}, {city.addressRegion} {city.postalCode} · {city.phone}.</p>
         </div>
@@ -265,8 +256,8 @@ export default function FortLauderdalePage() {
 
       <section className="bg-orange-500 py-10">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <p className="text-white font-bold text-2xl mb-2">Fort Lauderdale flood or water damage? Don&rsquo;t wait.</p>
-          <p className="text-orange-100 mb-6">Salt water damage accelerates corrosion and mold faster than freshwater. Immediate response is critical.</p>
+          <p className="text-white font-bold text-2xl mb-2">Water damage in Fort Lauderdale? King tide, flood, or pipe — 24/7.</p>
+          <p className="text-orange-100 mb-6">Victoria Park, Las Olas Isles, Rio Vista, Seven Isles — saltwater specialist crew on call around the clock.</p>
           <a href={`tel:${city.phone}`} className="inline-block bg-white text-orange-500 font-bold px-10 py-4 text-lg tracking-wide hover:bg-orange-50 transition-colors">☎ {city.phone} — Available 24/7</a>
         </div>
       </section>
