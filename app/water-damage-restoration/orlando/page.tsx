@@ -75,19 +75,49 @@ export default function OrlandoPage() {
         </div>
       </nav>
 
-      <section className="bg-navy-800 py-12 lg:py-16">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 px-4 py-1.5 mb-5">
-            <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">● 24/7 Emergency — Sinkhole Alley · Vacation Rental · Storm Specialists</span>
+      <section
+        className="relative bg-navy-950 overflow-hidden"
+        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1580993777851-40514758f716?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-900/75 via-navy-900/55 to-navy-900/35" />
+        <div className="relative max-w-7xl mx-auto px-6 py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-12">
+          <div className="flex-1 max-w-2xl" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}>
+            <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 px-4 py-1.5 mb-6">
+              <span className="text-orange-400 text-xs font-bold tracking-widest uppercase">● 24/7 Emergency — Sinkhole Alley · Vacation Rental · Storm Specialists</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">Orlando Water Damage Restoration</h1>
+            <div className="w-16 h-1 bg-orange-500 mb-6" />
+            <p className="text-white font-semibold text-lg leading-relaxed mb-8">
+              IICRC-certified water damage restoration across Orange County — karst sinkhole water intrusion, vacation rental flood response, hurricane rainfall flooding, and daily convective storm damage. 60-minute response to Dr. Phillips, Lake Nona, Winter Park, Baldwin Park, and all surrounding communities.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href={`tel:${city.phone}`} className="btn-primary text-base uppercase tracking-wider text-center">☎ Call {city.phone}</a>
+              <Link href="/contact/" className="btn-ghost text-sm uppercase tracking-wider text-center">Request Free Inspection</Link>
+            </div>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">Orlando Water Damage Restoration</h1>
-          <div className="w-16 h-1 bg-orange-500 mb-6" />
-          <p className="text-steel-200 text-lg max-w-2xl mb-8">
-            IICRC-certified water damage restoration across Orange County — karst sinkhole water intrusion, vacation rental flood response, hurricane rainfall flooding, and daily convective storm damage. 60-minute response to Dr. Phillips, Lake Nona, Winter Park, Baldwin Park, and all surrounding communities.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a href={`tel:${city.phone}`} className="btn-primary text-base uppercase tracking-wider text-center">☎ Call {city.phone}</a>
-            <Link href="/contact/" className="btn-ghost text-sm uppercase tracking-wider text-center">Request Free Inspection</Link>
+          <div
+            className="flex-shrink-0 w-full lg:w-80 border border-orange-500/50 p-6"
+            style={{ backgroundColor: 'rgba(27, 58, 92, 0.92)', textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}
+          >
+            <p className="text-orange-400 font-bold text-sm uppercase tracking-wider mb-4">Why Call Us First?</p>
+            <ul className="space-y-3">
+              {[
+                'Sinkhole alley response protocol',
+                '60-min to Baldwin Park & Winter Park',
+                'Cat 2/3 stormwater + slab leak specialists',
+                'Vacation rental rapid response',
+                'Hurricane Ian/Irma rainfall specialists',
+                'All Orange County carriers accepted',
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-2 text-sm text-white font-semibold">
+                  <span className="text-orange-400 mt-0.5 flex-shrink-0">→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <a href={`tel:${city.phone}`} className="mt-6 block bg-orange-500 hover:bg-orange-400 text-white font-bold text-center py-3 tracking-wide transition-colors">
+              Call Now — It&apos;s Free
+            </a>
           </div>
         </div>
       </section>
