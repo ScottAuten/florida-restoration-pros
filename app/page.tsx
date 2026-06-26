@@ -77,15 +77,19 @@ export default function HomePage() {
       <JsonLd data={FAQ_SCHEMA} />
 
       {/* ── Hero ── */}
-      <section className="relative bg-navy-900 overflow-hidden" style={{ minHeight: '82vh' }}>
-        {/* Background gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-800" />
-        <div className="absolute inset-0 opacity-10" style={{
-          backgroundImage: 'repeating-linear-gradient(45deg, #4A7FA5 0, #4A7FA5 1px, transparent 0, transparent 50%)',
-          backgroundSize: '24px 24px',
-        }} />
+      <section
+        className="relative bg-navy-950 overflow-hidden"
+        style={{
+          minHeight: '75vh',
+          backgroundImage: 'url(/images/hero-bg.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-navy-950/95 via-navy-950/80 to-navy-900/65" />
 
-        <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-28 flex flex-col lg:flex-row items-center gap-12">
+        <div className="relative max-w-7xl mx-auto px-6 py-10 lg:py-14 flex flex-col lg:flex-row items-center gap-12">
           {/* Hero text */}
           <div className="flex-1 max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/40 px-4 py-1.5 mb-6">
