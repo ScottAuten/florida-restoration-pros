@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
 import { CITIES, SITE } from '@/lib/siteConfig';
@@ -80,10 +81,8 @@ export default function TampaPage() {
         </div>
       </nav>
 
-      <section
-        className="relative bg-navy-950 overflow-hidden"
-        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1657069345471-c54f2432b79c?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
-      >
+      <section className="relative bg-navy-950 overflow-hidden">
+        <Image src="/images/city-tampa.webp" alt="" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center' }} />
         <div className="absolute inset-0 bg-gradient-to-r from-navy-900/75 via-navy-900/55 to-navy-900/35" />
         <div className="relative max-w-7xl mx-auto px-6 py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 max-w-2xl" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
 import { SITE, CITIES, SERVICES, LOCAL_BUSINESS_SCHEMA } from '@/lib/siteConfig';
@@ -77,14 +78,8 @@ export default function HomePage() {
       <JsonLd data={FAQ_SCHEMA} />
 
       {/* ── Hero ── */}
-      <section
-        className="relative bg-navy-950 overflow-hidden"
-        style={{
-          backgroundImage: 'url(/images/hero-bg.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
+      <section className="relative bg-navy-950 overflow-hidden">
+        <Image src="/images/hero-bg.webp" alt="" fill priority sizes="100vw" style={{ objectFit: 'cover', objectPosition: 'center' }} />
         {/* Semi-transparent overlay — keeps image visible */}
         <div className="absolute inset-0 bg-gradient-to-r from-navy-900/70 via-navy-900/50 to-navy-900/30" />
 
